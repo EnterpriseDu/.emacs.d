@@ -1,0 +1,15 @@
+# sessions
+session.*
+
+auto-save-list/
+*.dat
+
+# backups
+*~
+
+# compile files
+*.elc
+
+# each local emacs has its own settings
+bookmarks
+tramp

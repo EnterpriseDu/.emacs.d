@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: equationnarray
+# key: eq
+# --
+\begin{equation$1}${1:$(if (string-match "*" text) "" "\\\\label{eq:")
+}$2${1:$(if (string-match "*" text)  "" "}")}
+  $0
+\end{equation$1}

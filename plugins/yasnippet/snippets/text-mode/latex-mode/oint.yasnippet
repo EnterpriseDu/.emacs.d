@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ointegral
+# key: oint
+# --
+\oint${1:$(if (equal text "") "" "_{")
+}$1${1:$(if (equal text "") "" "}")
+    }${2:$(if (equal text "") "" "^{")
+}$2 ${2:$(if (equal text "") "" "}")
+}$0

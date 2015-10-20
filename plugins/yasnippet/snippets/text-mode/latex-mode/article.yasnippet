@@ -1,0 +1,55 @@
+# -*- mode: snippet -*-
+# name: article
+# key: art
+# --
+
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%The packages%%%%%%%%%%%%%%%%%%%
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+%\renewcommand{\baselinestretch}{1}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{color,varioref}
+\usepackage{longtable}
+\usepackage{mathtools}
+%\usepackage{psfig} %%
+%\usepackage{multirow} %%
+\usepackage{enumerate}
+\usepackage{color}
+
+
+%%%%%%%%%%%%%%%%%%%Some setting up%%%%%%%%%%%%%%%%%%%
+\definecolor{red}{rgb}{0.9,0,0}
+\newcommand{\red}[1]{\begin{color}{red}#1\end{color}}
+\definecolor{green}{rgb}{0,0.9,0}
+\newcommand{\green}[1]{\begin{color}{green}#1\end{color}}
+\definecolor{blue}{rgb}{0,0,0.9}
+\newcommand{\blue}[1]{\begin{color}{blue}#1\end{color}}
+\definecolor{white}{rgb}{0,0,0}
+\newcommand{\white}[1]{\begin{color}{white}#1\end{color}}
+
+
+\setlength{\textheight}{21.3cm} \setlength{\textwidth}{6.3in}
+\setlength{\topmargin}{0pt} \setlength{\evensidemargin}{1pt}
+\setlength{\oddsidemargin}{1pt} \setlength{\headsep}{7pt}
+
+
+%%%%%%%%%%%%%%%%%%%The body of the Document%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{\bf ${1: Article Title}}
+\author{
+${2:Aothor Name}
+\thanks{${3:Author Info}}
+}
+\maketitle
+\section{${4:Section Name}}
+\label{sec:${5:Section Label}}
+
+$0
+
+\end{document}
