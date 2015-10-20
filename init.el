@@ -58,7 +58,8 @@
 ;; default directory
 (setq default-directory "/home/duzf/")
 
-;; no cursor blink
+;; if no operate, the cursor will blink
+;; 10 times then stay still
 (blink-cursor-mode nil)
 
 ;; show the column number and the line number
