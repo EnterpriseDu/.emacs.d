@@ -40,10 +40,10 @@
 
 ;; set the font
 (set-default-font "Monaco-10")
-(dolist (charset '(kana han symbol cjk-misc bopomofo))
-  (set-fontset-font (frame-parameter nil 'font)
-                    charset (font-spec :family "AR PL UMing CN"
-                                       :size 12)))
+;(dolist (charset '(kana han symbol cjk-misc bopomofo))
+;  (set-fontset-font (frame-parameter nil 'font)
+;                    charset (font-spec :family "AR PL UMing CN"
+;                                       :size 12)))
 
 
 ;; doesn't seem to work
