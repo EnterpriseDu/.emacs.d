@@ -58,7 +58,7 @@
 ;; default directory
 (setq default-directory "/home/duzf/")
 
-;; if no operate, the cursor will blink
+;; if no operation, the cursor will blink
 ;; 10 times then stay still
 (blink-cursor-mode nil)
 
