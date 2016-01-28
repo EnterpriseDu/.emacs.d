@@ -9,6 +9,8 @@ auto-save-list/
 
 # compile files
 
+#binary
+*.tar*
 
 # each local emacs has its own settings
 bookmarks
